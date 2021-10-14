@@ -214,3 +214,12 @@
    ```
    cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
    ```
+
+ - 查看tensorflow版本
+   ```
+   python
+   import tensorflow as tf
+   tf.__version__
+   查询tensorflow安装路径为:
+   tf.__path__
+   ```
