@@ -194,9 +194,9 @@
 ### 5.0.1
  -  以上全部没有成功，改用conda安装tensorflow
     ```
-    conda create -n tensorflowgpu python=3.7
-    conda activate tensorflowgpu
-    conda install tensorflow-gpu
+    conda create -n tensorflow python=3.7
+    conda activate tensorflow
+    conda install tensorflow-gpu=1.15.0
     ```
     **成功**
 ## 6.0 查看各个软件版本
