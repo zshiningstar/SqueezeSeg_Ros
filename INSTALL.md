@@ -1,6 +1,3 @@
-# SqueezeSeg_Ros
-This is a ros package that implement the SqueezeSeg
-
 ##  环境依赖
 
 -  tensorflow=1.xx（这里采用conda安装，安装tensorflow-gpu=1.15.0）
