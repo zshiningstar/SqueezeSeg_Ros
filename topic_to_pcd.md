@@ -1,14 +1,7 @@
 ## ROS点云话题消息转成PCD格式点云
- -  在github上下载pcl_ros源码包，并编译
+ -  安装pypcd
     ```
-	切换分支适应自己系统
-    git checkout kinetic-devel 
-    
-　　  cd src
-　　  git clone https://github.com/ros-perception/perception_pcl.git
-　　  cd ..
-　　  catkin_make
-    source devel/setup.bash
+    pip install pypcd
     ```
  -  启动转换
     ```
